@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Scarface Barbershop | Tijuana</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Tipografías -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- =========================
+         ENCABEZADO
+    ========================== -->
+
+    <header class="encabezado">
+
+        <a href="#inicio" class="logo">
+            SCARFACE
+            <span>BARBERSHOP</span>
+        </a>
+
+        <button class="menu-btn" id="menuBtn">
+            ☰
+        </button>
+
+        <nav class="menu" id="navMenu">
+
+            <a href="#inicio">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#galeria">Galería</a>
+            <a href="#ubicacion">Ubicación</a>
+            <a href="#contacto">Contacto</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <main>
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-contenido">
+
+                <p class="hero-etiqueta">
+                    TIJUANA · BAJA CALIFORNIA
+                </p>
+
+                <h1>
+                    SCARFACE
+                </h1>
+
+                <h2>
+                    BARBERSHOP
+                </h2>
+
+                <div class="linea-roja"></div>
+
+                <p class="hero-texto">
+                    ESTILO. PRECISIÓN. ACTITUD.
+                </p>
+
+                <a href="#contacto" class="boton">
+                    RESERVAR CITA
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             SERVICIOS
+        ========================== -->
+
+        <section class="seccion" id="servicios">
+
+            <p class="etiqueta">
+                LO QUE HACEMOS
+            </p>
+
+            <h2>
+                SERVICIOS
+            </h2>
+
+            <p class="texto-seccion">
+                Próximamente agregaremos aquí los servicios
+                y precios de Scarface Barbershop.
+            </p>
+
+        </section>
+
+
+        <!-- =========================
+             NOSOTROS
+        ========================== -->
+
+        <section class="seccion seccion-oscura" id="nosotros">
+
+            <p class="etiqueta">
+                SCARFACE BARBERSHOP
+            </p>
+
+            <h2>
+                NUESTRA HISTORIA
+            </h2>
+
+            <p class="texto-seccion">
+                Próximamente agregaremos la historia de
+                Scarface Barbershop.
+            </p>
+
+        </section>
+
+
+        <!-- =========================
+             GALERÍA
+        ========================== -->
+
+        <section class="seccion" id="galeria">
+
+            <p class="etiqueta">
+                NUESTRO TRABAJO
+            </p>
+
+            <h2>
+                GALERÍA
+            </h2>
+
+            <p class="texto-seccion">
+                Aquí colocaremos las fotografías reales
+                de la barbería y sus trabajos.
+            </p>
+
+        </section>
+
+
+        <!-- =========================
+             UBICACIÓN
+        ========================== -->
+
+        <section class="seccion seccion-oscura" id="ubicacion">
+
+            <p class="etiqueta">
+                ENCUÉNTRANOS
+            </p>
+
+            <h2>
+                UBICACIÓN
+            </h2>
+
+            <p class="texto-seccion">
+                Huec-Mac 1906, Emperadores,<br>
+                22117 Tijuana, Baja California.
+            </p>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACTO
+        ========================== -->
+
+        <section class="contacto" id="contacto">
+
+            <p class="etiqueta">
+                ¿LISTO PARA EL CAMBIO?
+            </p>
+
+            <h2>
+                RESERVA TU CITA
+            </h2>
+
+            <p>
+                663-113-0580
+            </p>
+
+            <a
+                href="https://wa.me/526631130580"
+                class="boton boton-rojo"
+                target="_blank"
+            >
+                WHATSAPP
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <h3>
+            SCARFACE BARBERSHOP
+        </h3>
+
+        <p>
+            TIJUANA · BAJA CALIFORNIA
+        </p>
+
+        <p class="copyright">
+            © 2026 SCARFACE BARBERSHOP
+        </p>
+
+    </footer>
+
+
+    <script>
+
+        const menuBtn = document.getElementById("menuBtn");
+        const navMenu = document.getElementById("navMenu");
+
+        menuBtn.onclick = function () {
+            navMenu.classList.toggle("active");
+        };
+
+    </script>
+
+</body>
+
+</html>
