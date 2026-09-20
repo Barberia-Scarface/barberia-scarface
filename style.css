@@ -191,20 +191,21 @@ body {
 
     background:
         radial-gradient(
-            circle at 75% 45%,
-            rgba(217, 0, 0, 0.40),
-            transparent 30%
+            circle at 70% 50%,
+            rgba(255, 0, 0, 0.28),
+            transparent 28%
         ),
         radial-gradient(
-            circle at 20% 80%,
-            rgba(114, 0, 0, 0.20),
-            transparent 35%
+            circle at 15% 85%,
+            rgba(140, 0, 0, 0.18),
+            transparent 32%
         ),
         linear-gradient(
-            120deg,
+            115deg,
             #020202 0%,
-            #080808 48%,
-            #240000 100%
+            #070707 45%,
+            #160000 75%,
+            #250000 100%
         );
 }
 
