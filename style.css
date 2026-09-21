@@ -402,9 +402,12 @@ body {
     color: white;
 
     box-shadow:
-        0 0 30px rgba(217, 0, 0, 0.35);
+        0 0 15px rgba(217, 0, 0, 0.7),
+        0 0 35px rgba(217, 0, 0, 0.35);
 
-    transform: translateY(-2px);
+    transform: translateY(-3px);
+
+    letter-spacing: 2.5px;
 }
 
 .boton-rojo {
