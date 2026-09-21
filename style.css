@@ -709,3 +709,70 @@ footer .copyright {
     }
 
 }
+
+/* =========================
+   SERVICIOS
+========================= */
+
+.servicios-lista {
+    max-width: 900px;
+    margin: 50px auto 0;
+    border-top: 1px solid rgba(217, 0, 0, 0.5);
+}
+
+.servicio-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 22px 10px;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+
+    transition: 0.3s ease;
+}
+
+.servicio-item span {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+
+.servicio-item strong {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: #d90000;
+}
+
+.servicio-item:hover {
+    padding-left: 18px;
+    padding-right: 18px;
+    background: rgba(217, 0, 0, 0.06);
+}
+
+.servicio-item:hover span {
+    color: #ff1111;
+}
+
+
+/* =========================
+   SERVICIOS · MÓVIL
+========================= */
+
+@media (max-width: 600px) {
+
+    .servicio-item {
+        padding: 18px 5px;
+    }
+
+    .servicio-item span {
+        font-size: 20px;
+    }
+
+    .servicio-item strong {
+        font-size: 20px;
+    }
+
+}
