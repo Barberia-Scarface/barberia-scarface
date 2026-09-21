@@ -776,3 +776,110 @@ footer .copyright {
     }
 
 }
+
+/* =========================
+   PALMERAS DE FONDO
+========================= */
+
+.palmeras-fondo {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.palmera {
+    position: absolute;
+    bottom: -20px;
+    width: 180px;
+    height: 420px;
+    opacity: 0.22;
+}
+
+/* Tronco */
+.palmera::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 18px;
+    height: 330px;
+    background: #000;
+    transform: translateX(-50%) rotate(5deg);
+    border-radius: 50%;
+}
+
+/* Hojas */
+.palmera::after {
+    content: "";
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    width: 170px;
+    height: 170px;
+    transform: translateX(-50%);
+    
+    background:
+        radial-gradient(
+            ellipse at 50% 100%,
+            #000 0 10px,
+            transparent 11px
+        ),
+        linear-gradient(
+            25deg,
+            transparent 45%,
+            #000 46% 52%,
+            transparent 53%
+        ),
+        linear-gradient(
+            65deg,
+            transparent 45%,
+            #000 46% 52%,
+            transparent 53%
+        ),
+        linear-gradient(
+            115deg,
+            transparent 45%,
+            #000 46% 52%,
+            transparent 53%
+        ),
+        linear-gradient(
+            155deg,
+            transparent 45%,
+            #000 46% 52%,
+            transparent 53%
+        );
+    
+    border-radius: 50%;
+}
+
+
+/* Posiciones */
+.palmera-1 {
+    left: -50px;
+    transform: scale(1.15);
+}
+
+.palmera-2 {
+    left: 18%;
+    bottom: -80px;
+    transform: scale(0.75);
+}
+
+.palmera-3 {
+    right: 18%;
+    bottom: -70px;
+    transform: scale(0.85);
+}
+
+.palmera-4 {
+    right: -40px;
+    transform: scale(1.25);
+}
+
+.palmera-5 {
+    left: 45%;
+    bottom: -130px;
+    transform: scale(0.55);
+}
