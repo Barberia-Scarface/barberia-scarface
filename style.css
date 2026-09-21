@@ -782,7 +782,7 @@ footer .copyright {
 ========================= */
 
 .palmeras-fondo {
-    position: absolute;
+    position: fixed;
     inset: 0;
     overflow: hidden;
     pointer-events: none;
