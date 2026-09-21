@@ -286,28 +286,98 @@ body {
 
 .hero h1 {
     font-family: Georgia, "Times New Roman", serif;
-
     font-size: clamp(80px, 14vw, 180px);
-
     line-height: 0.82;
-
     letter-spacing: 2px;
-
     font-weight: 900;
-
     color: #ffffff;
-
     text-transform: uppercase;
-
     transform: scaleX(0.82);
-
     transform-origin: left center;
-
     text-shadow:
         4px 4px 0 rgba(0, 0, 0, 0.65),
         8px 8px 18px rgba(0, 0, 0, 0.8);
 }
 
+
+/* =========================
+   SANGRE EN SCARFACE
+========================= */
+
+.scarface-titulo span {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Goteos de sangre */
+.scarface-titulo span::after {
+    content: "";
+    position: absolute;
+
+    left: 2%;
+    top: 78%;
+
+    width: 96%;
+    height: 65px;
+
+    pointer-events: none;
+
+    background:
+        radial-gradient(
+            ellipse at 7% 0%,
+            #d90000 0 7px,
+            transparent 8px
+        ),
+
+        linear-gradient(
+            #d90000,
+            #d90000
+        ) 15% 0 / 9px 34px no-repeat,
+
+        radial-gradient(
+            ellipse at 30% 0%,
+            #b00000 0 9px,
+            transparent 10px
+        ),
+
+        linear-gradient(
+            #b00000,
+            #b00000
+        ) 31% 0 / 11px 48px no-repeat,
+
+        radial-gradient(
+            ellipse at 51% 0%,
+            #ff1111 0 6px,
+            transparent 7px
+        ),
+
+        linear-gradient(
+            #ff1111,
+            #ff1111
+        ) 53% 0 / 8px 29px no-repeat,
+
+        radial-gradient(
+            ellipse at 72% 0%,
+            #d90000 0 9px,
+            transparent 10px
+        ),
+
+        linear-gradient(
+            #d90000,
+            #d90000
+        ) 74% 0 / 12px 55px no-repeat,
+
+        radial-gradient(
+            ellipse at 91% 0%,
+            #a00000 0 7px,
+            transparent 8px
+        );
+
+    filter: drop-shadow(
+        0 3px 4px rgba(0, 0, 0, 0.8)
+    );
+}
 
 .hero h2 {
     margin-top: 12px;
