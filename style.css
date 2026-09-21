@@ -407,7 +407,7 @@ body {
 
     padding: 110px 8%;
 
-    background: var(--negro);
+    background: transparent;
 
     text-align: center;
 }
