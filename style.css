@@ -303,13 +303,27 @@ body {
 .hero h2 {
     margin-top: 12px;
 
-    font-family: "Bebas Neue", sans-serif;
+    font-family: Georgia, "Times New Roman", serif;
 
-    font-size: clamp(35px, 5vw, 70px);
+    font-size: clamp(48px, 7vw, 95px);
 
-    letter-spacing: 13px;
+    font-weight: 900;
+
+    letter-spacing: 2px;
+
+    line-height: 0.9;
 
     color: var(--rojo);
+
+    text-transform: uppercase;
+
+    transform: scaleX(0.82);
+
+    transform-origin: left center;
+
+    text-shadow:
+        3px 3px 0 #080808,
+        6px 6px 12px rgba(0, 0, 0, 0.8);
 }
 
 
