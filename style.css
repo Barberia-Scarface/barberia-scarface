@@ -905,3 +905,40 @@ footer .copyright {
     bottom: -130px;
     transform: scale(0.55);
 }
+
+/* =========================
+   ANIMACIÓN PALMERAS
+========================= */
+
+.palmera-1 {
+    animation: flotarPalmera 7s ease-in-out infinite;
+}
+
+.palmera-2 {
+    animation: flotarPalmera 9s ease-in-out infinite reverse;
+}
+
+.palmera-3 {
+    animation: flotarPalmera 8s ease-in-out infinite;
+}
+
+.palmera-4 {
+    animation: flotarPalmera 10s ease-in-out infinite reverse;
+}
+
+.palmera-5 {
+    animation: flotarPalmera 11s ease-in-out infinite;
+}
+
+@keyframes flotarPalmera {
+
+    0%, 100% {
+        margin-top: 0;
+        opacity: 0.28;
+    }
+
+    50% {
+        margin-top: -14px;
+        opacity: 0.34;
+    }
+}
