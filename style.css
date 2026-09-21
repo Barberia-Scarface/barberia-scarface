@@ -120,6 +120,10 @@ body {
 
 .logo:hover {
     color: var(--rojo);
+
+    text-shadow:
+        0 0 8px rgba(217, 0, 0, 0.7),
+        0 0 20px rgba(217, 0, 0, 0.35);
 }
 
 
