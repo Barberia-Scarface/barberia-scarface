@@ -304,64 +304,6 @@ body {
    SANGRE EN SCARFACE
 ========================= */
 
-.scarface-titulo span {
-    position: relative;
-    display: inline-block;
-}
-.scarface-titulo span::after {
-    content: "";
-    position: absolute;
-    left: 8%;
-    bottom: -5px;
-    width: 84%;
-    height: 45px;
-    pointer-events: none;
-
-    background:
-        radial-gradient(
-            circle at 8% 0%,
-            #d90000 0 5px,
-            transparent 6px
-        ),
-        linear-gradient(
-            #d90000,
-            #d90000
-        ) 8% 0 / 7px 24px no-repeat,
-
-        radial-gradient(
-            circle at 34% 0%,
-            #b00000 0 4px,
-            transparent 5px
-        ),
-        linear-gradient(
-            #b00000,
-            #b00000
-        ) 34% 0 / 6px 17px no-repeat,
-
-        radial-gradient(
-            circle at 61% 0%,
-            #d90000 0 6px,
-            transparent 7px
-        ),
-        linear-gradient(
-            #d90000,
-            #d90000
-        ) 61% 0 / 8px 31px no-repeat,
-
-        radial-gradient(
-            circle at 88% 0%,
-            #a00000 0 4px,
-            transparent 5px
-        ),
-        linear-gradient(
-            #a00000,
-            #a00000
-        ) 88% 0 / 6px 20px no-repeat;
-
-    filter: drop-shadow(0 2px 3px rgba(0,0,0,.8));
-}
-
-
 /* Goteos de sangre */
 .scarface-titulo span::after {
     content: "";
