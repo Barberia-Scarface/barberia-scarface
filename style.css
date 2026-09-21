@@ -298,40 +298,6 @@ body {
         4px 4px 0 rgba(0, 0, 0, 0.65),
         8px 8px 18px rgba(0, 0, 0, 0.8);
 }
-.scarface-titulo {
-    position: relative;
-}
-
-.gota {
-    position: absolute;
-    top: 78%;
-    width: 9px;
-    height: 30px;
-    background: #d90000;
-    border-radius: 0 0 50% 50%;
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.7);
-}
-
-.gota-1 {
-    left: 15%;
-    height: 35px;
-}
-
-.gota-2 {
-    left: 38%;
-    height: 22px;
-}
-
-.gota-3 {
-    left: 63%;
-    height: 42px;
-}
-
-.gota-4 {
-    left: 86%;
-    height: 27px;
-}
-
 
 .hero h2 {
     margin-top: 12px;
